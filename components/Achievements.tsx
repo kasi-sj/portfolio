@@ -8,7 +8,7 @@ import { useTheme } from "next-themes";
 const Achievements = () => {
   const theme = useTheme();
   return (
-    <div className={" flex-col w-full min-h-screen"+` ${theme.theme !== "dark" ? "bg-white" : "bg-black"}`}>
+    <div className={" flex-col w-full min-h-screen"}>
       <h2
         className={cn(
           "lg:text-4xl text-2xl font-semibold w-full text-center my-10 text-white relative z-20"+` ${theme.theme === "dark" ? "text-white" : "text-black"}`
@@ -65,11 +65,11 @@ const AchievementCard = ({ data  }: AchievementCardProps) => {
             {data.genere}
           </CardItem>
           <CardItem
-            translateZ={20}
+            translateZ={25}
             as="a"
             href={data.link}
             target="__blank"
-            className={`px-4 py-2 rounded-xl text-xs font-normal ${theme==="dark" && "text-white"}`}
+            className={`px-4 py-2  rounded-xl text-black text-xs font-normal ${theme==="dark" && "text-white"}`}
           >
             View now →
           </CardItem>

@@ -38,7 +38,7 @@ const About = () => {
   
   const theme = useTheme();
   return (
-    <div className={" flex-col w-full min-h-screen"+` ${theme.theme !== "dark" ? "bg-white" : "bg-black"}`}>
+    <div className={" flex-col w-full min-h-screen"}>
       <h2
         className={cn(
           "lg:text-4xl text-2xl font-semibold w-full text-center my-10 text-white relative z-20"+` ${theme.theme === "dark" ? "text-white" : "text-black"}`

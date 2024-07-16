@@ -31,6 +31,9 @@ import { SiSocketdotio } from "react-icons/si";
 import { TbBrandOauth } from "react-icons/tb";
 import { SiRedux } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import { SiRubyonrails } from "react-icons/si";
+import { image } from "@nextui-org/react";
+import { Description, GitHub } from "@mui/icons-material";
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -128,150 +131,7 @@ export const siteConfig = {
       name: "System Design",
     },
   ],
-  skills: [
-    {
-      title: "Front-end",
-      list: [
-        {
-          name: "HTML",
-          icon: FaHtml5,
-        },
-        {
-          name: "CSS",
-          icon: IoLogoCss3,
-        },
-        {
-          name: "React",
-          icon: RiReactjsFill,
-        },
-        {
-          name: "Next.js",
-          icon: RiNextjsFill,
-        },
-        {
-          name: "Tailwind CSS",
-          icon: RiTailwindCssFill,
-        },
-        {
-          name: "NextUI",
-          icon: SiNextui,
-        },
-        {
-          name: "Shadcn UI",
-          icon: SiShadcnui,
-        },
-        {
-          name: "Redux",
-          icon: SiRedux,
-        },
-        {
-          name: "Tauri",
-          icon: SiTauri,
-        },
-      ],
-    },
-    {
-      title: "Back-end",
-      list: [
-        {
-          name: "javascript",
-          icon: IoLogoJavascript,
-        },
-        {
-          name: "TypeScript",
-          icon: SiTypescript,
-        },
-        {
-          name: "Node.js",
-          icon: DiNodejs,
-        },
-        {
-          name: "Express",
-          icon: SiExpress,
-        },
-        {
-          name: "Spring Boot",
-          icon: SiSpringboot,
-        },
-        {
-          name: "Socket.io",
-          icon: SiSocketdotio,
-        },
-        {
-          name: "Auth.js",
-          icon: TbBrandOauth,
-        },
-      ],
-    },
-    {
-      title: "Database",
-      list: [
-        {
-          name: "MongoDB",
-          icon: SiMongodb,
-        },
-        {
-          name: "PostgreSQL",
-          icon: DiPostgresql,
-        },
-      ],
-    },
-    {
-      title: "App Development",
-      list: [
-        {
-          name: "React Native",
-          icon: TbBrandReactNative,
-        },
-        {
-          name: "Expo",
-          icon: SiExpo,
-        },
-        {
-          name: "Firebase",
-          icon: IoLogoFirebase,
-        },
-      ],
-    },
-    {
-      title: "Programming Languages",
-      list: [
-        {
-          name: "Java",
-          icon: FaJava,
-        },
-        {
-          name: "Python",
-          icon: FaPython,
-        },
-        {
-          name: "C++",
-          icon: TbBrandCpp,
-        },
-      ],
-    },
-    {
-      title: "Tools",
-      list: [
-        {
-          name: "Postman",
-          icon: SiPostman,
-        },
-        {
-          name: "Git",
-          icon: FaGitAlt,
-        },
-        {
-          name: "Docker",
-          icon: FaDocker,
-        },
-        {
-          name: "VS Code",
-          icon: VscVscode,
-        },
-      ],
-    },
-  ],
+
   achievements: [
     {
       image: "/codechef.png",
@@ -305,3 +165,222 @@ export const siteConfig = {
     },
   ],
 };
+
+export const skills = [
+  {
+    title: "Front-end",
+    list: [
+      {
+        name: "HTML",
+        icon: FaHtml5,
+      },
+      {
+        name: "CSS",
+        icon: IoLogoCss3,
+      },
+      {
+        name: "React",
+        icon: RiReactjsFill,
+      },
+      {
+        name: "Next.js",
+        icon: RiNextjsFill,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: RiTailwindCssFill,
+      },
+      {
+        name: "NextUI",
+        icon: SiNextui,
+      },
+      {
+        name: "Shadcn UI",
+        icon: SiShadcnui,
+      },
+      {
+        name: "Redux",
+        icon: SiRedux,
+      },
+      {
+        name: "Tauri",
+        icon: SiTauri,
+      },
+    ],
+  },
+  {
+    title: "Back-end",
+    list: [
+      {
+        name: "javascript",
+        icon: IoLogoJavascript,
+      },
+      {
+        name: "TypeScript",
+        icon: SiTypescript,
+      },
+      {
+        name: "Node.js",
+        icon: DiNodejs,
+      },
+      {
+        name: "Express",
+        icon: SiExpress,
+      },
+      {
+        name: "Spring Boot",
+        icon: SiSpringboot,
+      },
+      {
+        name: "Socket.io",
+        icon: SiSocketdotio,
+      },
+      {
+        name: "Auth.js",
+        icon: TbBrandOauth,
+      },
+    ],
+  },
+  {
+    title: "Database",
+    list: [
+      {
+        name: "MongoDB",
+        icon: SiMongodb,
+      },
+      {
+        name: "PostgreSQL",
+        icon: DiPostgresql,
+      },
+    ],
+  },
+  {
+    title: "App Development",
+    list: [
+      {
+        name: "React Native",
+        icon: TbBrandReactNative,
+      },
+      {
+        name: "Expo",
+        icon: SiExpo,
+      },
+      {
+        name: "Firebase",
+        icon: IoLogoFirebase,
+      },
+    ],
+  },
+  {
+    title: "Programming Languages",
+    list: [
+      {
+        name: "Java",
+        icon: FaJava,
+      },
+      {
+        name: "Python",
+        icon: FaPython,
+      },
+      {
+        name: "C++",
+        icon: TbBrandCpp,
+      },
+    ],
+  },
+  {
+    title: "Tools",
+    list: [
+      {
+        name: "Postman",
+        icon: SiPostman,
+      },
+      {
+        name: "Git",
+        icon: FaGitAlt,
+      },
+      {
+        name: "Docker",
+        icon: FaDocker,
+      },
+      {
+        name: "VS Code",
+        icon: VscVscode,
+      },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: "linkedIn Clone",
+    description:
+      "A linkedIn Mobile application Clone built using Next.js, Tailwind CSS, NextUI, Redux, Firebase, and more.",
+    image: "/linkedin.jpg",
+    link: "https://drive.google.com/file/d/1CD9dW9xP07d_11vvH-n3OTYFmCN8GM9U/view?usp=sharing",
+    github: "https://github.com/kasi-sj/linkedin-clone",
+    icons : [SiExpo , TbBrandReactNative , IoLogoFirebase , SiSocketdotio ,DiNodejs , SiExpress , SiRedux ,SiMongodb ]
+  },
+  {
+    title: "JobMagnet",
+    description:
+      "A job search application built using React, Redux, Firebase, and more.",
+    image: "/jobmagnet.png",
+    link: "https://jobmagnet.vercel.app/",
+    github: "https://github.com/kasi-sj/jobmagnet",
+    icons : [  DiNodejs , SiExpress , RiNextjsFill ,RiTailwindCssFill , SiMongodb , SiShadcnui]
+  },
+  {
+    title: "TrackMe",
+    description: "A Crome Extension to track your daily activities.",
+    image: "/trackme.png",
+    link: "https://trackme-web-jade.vercel.app/",
+    github: "https://github.com/kasi-sj/TrackMe",
+    icons : [ SiRubyonrails , SiNextui , RiNextjsFill , RiTailwindCssFill ,FaHtml5 , IoLogoCss3 , IoLogoJavascript, FaDocker ,DiPostgresql ]
+  },
+  {
+    title: "CodeSync",
+    description:
+      "A collaborative code editor built using tauri, Socket.io, and more.",
+    image: "/code-sync.png",
+    link: "https://code-sync-website.vercel.app/",
+    github: "https://github.com/kasi-sj/code-sync",
+    icons : [SiTauri , SiNextui , RiNextjsFill , RiTailwindCssFill ,SiSocketdotio,DiPostgresql ]
+  },
+  {
+    title: "Promptopia",
+    description:
+      "A prompt sharing platform built using Next.js, Tailwind CSS, and more.",
+    image: "/promptopia.png",
+    link: "https://promtopia-seven.vercel.app/",
+    github: "https://github.com/kasi-sj/promtopia",
+    icons : [RiNextjsFill , RiTailwindCssFill , SiMongodb , SiShadcnui]
+  },
+  {
+    title: "nike home page UI",
+    description:
+      "A nike home page clone built using Next.js, Tailwind CSS, and more.",
+    image: "/nike.png",
+    link: "https://nike-c-cx3b.vercel.app/",
+    github: "https://github.com/kasi-sj/nike",
+    icons : [RiNextjsFill , RiTailwindCssFill ]
+  },
+  {
+    title: "moviePI",
+    description:
+      "A movie search application built using React, Spring boot, and more.",
+    image: "/moviepi.png",
+    link: "https://moviepi-9reb.vercel.app/",
+    github: "https://github.com/kasi-sj/moviepi",
+    icons : [ SiSpringboot , SiNextui , RiNextjsFill , SiMongodb]
+  },
+  {
+    title: "kahoot cli",
+    description:
+      "A kahoot cli is a command line interface to play kahoot quizzes. build using java socket programming.",
+    image: "/kahoot-cli.png",
+    link: "/kahoot-cli.png",
+    github: "https://github.com/kasi-sj/kahoot-cli/",
+    icons : [ FaJava , SiSocketdotio ]
+  },
+];

@@ -11,7 +11,7 @@ import { useTheme } from "next-themes";
 const Home = () => {
   const theme = useTheme();
   return (
-    <div className="h-full  relative w-full overflow-hidden min-h-screen flex flex-col items-center justify-center rounded-lg">
+    <div className="h-full  relative w-full min-h-screen flex flex-col items-center justify-center rounded-lg">
       <Boxes />
       <div className="flex flex-row justify-around items-center w-full mt-16">
         <div className="flex flex-col items-center lg:w-1/2  justify-center lg:items-start">

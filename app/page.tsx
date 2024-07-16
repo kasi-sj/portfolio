@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Achievements from "@/components/Achievements";
 import Home from "@/components/Home";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
 export default function Page() {
@@ -10,6 +11,7 @@ export default function Page() {
       <About />
       <Skills />
       <Achievements />
+      <Projects/>
     </div>
   );
 }
