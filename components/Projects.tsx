@@ -14,11 +14,7 @@ import { Button } from "@nextui-org/button";
 const Projects = () => {
   const theme = useTheme();
   return (
-    <div
-      className={
-        " flex-col w-full min-h-screen" 
-      }
-    >
+    <div className={" flex-col w-full min-h-screen"} id="projects">
       <h2
         className={cn(
           "lg:text-4xl text-2xl font-semibold w-full text-center my-10 text-white relative z-20" +
@@ -70,18 +66,19 @@ const Projects = () => {
                           <div className="flex flex-row items-center justify-center gap-4">
                             <Link href={project.github} isExternal>
                               <span>
-                                <FaGithub  size={40} color="white"/>
+                                <FaGithub size={40} color="white" />
                               </span>
                             </Link>
-                            <Button
-                              href={project.link}
-                              target="__blank"
-                              className={`px-4 py-2  rounded-xl text-black text-xs font-normal ${
-                                theme.theme === "dark" && "text-white"
-                              }`}
-                            >
-                              View now →
-                            </Button>
+                            <Link href={project.link}>
+                              <Button
+                                target="__blank"
+                                className={`px-4 py-2  rounded-xl text-black text-xs font-normal ${
+                                  theme.theme === "dark" && "text-white"
+                                }`}
+                              >
+                                View now →
+                              </Button>
+                            </Link>
                           </div>
                         </div>
                         <div className="flex flex-col  justify-start gap-5 items-end"></div>

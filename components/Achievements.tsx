@@ -8,7 +8,7 @@ import { useTheme } from "next-themes";
 const Achievements = () => {
   const theme = useTheme();
   return (
-    <div className={" flex-col w-full min-h-screen"}>
+    <div className={" flex-col w-full min-h-screen"} id="achievements">
       <h2
         className={cn(
           "lg:text-4xl text-2xl font-semibold w-full text-center my-10 text-white relative z-20"+` ${theme.theme === "dark" ? "text-white" : "text-black"}`
@@ -16,7 +16,7 @@ const Achievements = () => {
       >
         Achievements
       </h2>
-      <div className="flex flex-row gap-1 justify-center items-center">
+      <div className="flex flex-row flex-wrap gap-2 justify-center items-center">
       {siteConfig.achievements.map((achievement, index) => (
         <AchievementCard  key={index} data={achievement} />
       ))}

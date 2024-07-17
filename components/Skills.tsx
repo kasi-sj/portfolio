@@ -12,7 +12,7 @@ const Skills = () => {
   
   const theme = useTheme();
   return (
-    <div className={" flex-col relative w-full p-6 min-h-screen"}>
+    <div className={" flex-col relative w-full p-6 min-h-screen"} id="skills">
       <BackgroundBeams />
       <h2
         className={cn(

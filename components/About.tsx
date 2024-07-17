@@ -38,7 +38,7 @@ const About = () => {
   
   const theme = useTheme();
   return (
-    <div className={" flex-col w-full min-h-screen"}>
+    <div className={" z-20 flex-col w-full min-h-screen"} id="about">
       <h2
         className={cn(
           "lg:text-4xl text-2xl font-semibold w-full text-center my-10 text-white relative z-20"+` ${theme.theme === "dark" ? "text-white" : "text-black"}`
@@ -65,7 +65,7 @@ const About = () => {
                 will help me grow as a developer.`}
             <div />
           </div>
-          <Link isExternal>
+          <Link isExternal href="https://drive.google.com/file/d/1YDIbd4tHRpjrH-fLtTvrq8_KDtkQ2JVA/view?usp=sharing">
             <Button className="mt-5">
               Download Resume <IoMdDownload />
             </Button>

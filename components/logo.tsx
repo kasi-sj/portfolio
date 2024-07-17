@@ -7,7 +7,7 @@ export default function Logo() {
       <Avatar
         isBordered
         radius="sm"
-        color="success"
+        color="primary"
         size="sm"
         src="/kasinathan_sj_logo.jpg"
       />

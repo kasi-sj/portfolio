@@ -42,45 +42,53 @@ export const siteConfig = {
   navItems: [
     {
       label: "Home",
-      href: "/",
+      href: "#home",
     },
     {
       label: "About",
-      href: "/about",
+      href: "#about",
     },
     {
       label: "Skills",
-      href: "/skills",
+      href: "#skills",
+    },
+    {
+      label : "Achievements",
+      href : "#achievements"
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "#projects",
     },
     {
       label: "Contact",
-      href: "/contact",
+      href: "#contact",
     },
   ],
   navMenuItems: [
     {
       label: "Home",
-      href: "/",
+      href: "#home",
     },
     {
       label: "About",
-      href: "/about",
+      href: "#about",
     },
     {
       label: "Skills",
-      href: "/skills",
+      href: "#skills",
+    },
+    {
+      label : "Achievements",
+      href : "#achievements"
     },
     {
       label: "Projects",
-      href: "/projects",
+      href: "#projects",
     },
     {
       label: "Contact",
-      href: "/contact",
+      href: "#contact",
     },
   ],
   links: {
@@ -313,53 +321,62 @@ export const skills = [
 
 export const projects = [
   {
-    title: "linkedIn Clone",
+    title: "linkedIn Mobile Clone",
     description:
-      "A linkedIn Mobile application Clone built using Next.js, Tailwind CSS, NextUI, Redux, Firebase, and more.",
+      "Experience LinkedIn on your phone with my clone app, built using React Native and Expo Router. Manage your profile, build your network, search for jobs, chat with friends, and stay updated with industry news—all in one place. Enjoy the LinkedIn vibe, optimized for mobile!",
     image: "/linkedin.jpg",
     link: "https://drive.google.com/file/d/1CD9dW9xP07d_11vvH-n3OTYFmCN8GM9U/view?usp=sharing",
     github: "https://github.com/kasi-sj/linkedin-clone",
     icons : [SiExpo , TbBrandReactNative , IoLogoFirebase , SiSocketdotio ,DiNodejs , SiExpress , SiRedux ,SiMongodb ]
   },
   {
-    title: "JobMagnet",
-    description:
-      "A job search application built using React, Redux, Firebase, and more.",
-    image: "/jobmagnet.png",
-    link: "https://jobmagnet.vercel.app/",
-    github: "https://github.com/kasi-sj/jobmagnet",
-    icons : [  DiNodejs , SiExpress , RiNextjsFill ,RiTailwindCssFill , SiMongodb , SiShadcnui]
-  },
-  {
-    title: "TrackMe",
-    description: "A Crome Extension to track your daily activities.",
-    image: "/trackme.png",
-    link: "https://trackme-web-jade.vercel.app/",
-    github: "https://github.com/kasi-sj/TrackMe",
-    icons : [ SiRubyonrails , SiNextui , RiNextjsFill , RiTailwindCssFill ,FaHtml5 , IoLogoCss3 , IoLogoJavascript, FaDocker ,DiPostgresql ]
-  },
-  {
     title: "CodeSync",
     description:
-      "A collaborative code editor built using tauri, Socket.io, and more.",
+      "CodeSync is a comprehensive project featuring a code editor with functionalities akin to VS Code, including editing, file management, and a basic terminal. Its standout feature is CodeCollab, enabling real-time collaborative editing via socket.io, allowing multiple users to work on the same codebase simultaneously.",
     image: "/code-sync.png",
     link: "https://code-sync-website.vercel.app/",
     github: "https://github.com/kasi-sj/code-sync",
     icons : [SiTauri , SiNextui , RiNextjsFill , RiTailwindCssFill ,SiSocketdotio,DiPostgresql ]
   },
   {
+    title: "TrackMe",
+    description: "TrackMe is a comprehensive project that includes a backend server, a frontend web application, and a browser extension. The project is designed to track user screen time, provide insights into browsing habits, and manage website access restrictions.",
+    image: "/trackme.png",
+    link: "https://trackme-web-jade.vercel.app/",
+    github: "https://github.com/kasi-sj/TrackMe",
+    icons : [ SiRubyonrails , SiNextui , RiNextjsFill , RiTailwindCssFill ,FaHtml5 , IoLogoCss3 , IoLogoJavascript, FaDocker ,DiPostgresql ]
+  },
+  {
+    title: "JobMagnet",
+    description:
+      "JobMagnet is a Job Searching platform featuring job posting, searching, applying, and efficient job notifications via nodemailer. Implemented secure user authentication, responsive design, and profile management.",
+    image: "/jobmagnet.png",
+    link: "https://jobmagnet.vercel.app/",
+    github: "https://github.com/kasi-sj/jobmagnet",
+    icons : [  DiNodejs , SiExpress , RiNextjsFill ,RiTailwindCssFill , SiMongodb , SiShadcnui]
+  },
+  {
+    title: "kahoot cli",
+    description:
+      "A kahoot cli is a command line interface to play kahoot quizzes. build using java socket programming.",
+    image: "/kahoot-cli.png",
+    link: "/kahoot-cli.png",
+    github: "https://github.com/kasi-sj/kahoot-cli/",
+    icons : [ FaJava , SiSocketdotio ]
+  },
+  {
     title: "Promptopia",
     description:
-      "A prompt sharing platform built using Next.js, Tailwind CSS, and more.",
+    "Promptopia is a community of writers who share and discover AI-generated prompts. Write your killer prompts and share them with the world!, built using Next.js, Tailwind CSS, and more.",
     image: "/promptopia.png",
     link: "https://promtopia-seven.vercel.app/",
     github: "https://github.com/kasi-sj/promtopia",
     icons : [RiNextjsFill , RiTailwindCssFill , SiMongodb , SiShadcnui]
   },
   {
-    title: "nike home page UI",
+    title: "Nike Landing Page",
     description:
-      "A nike home page clone built using Next.js, Tailwind CSS, and more.",
+      "A Nike Landing Page is an project show showcase Tailwind CSS styling built using Next.js, Tailwind CSS",
     image: "/nike.png",
     link: "https://nike-c-cx3b.vercel.app/",
     github: "https://github.com/kasi-sj/nike",
@@ -373,14 +390,5 @@ export const projects = [
     link: "https://moviepi-9reb.vercel.app/",
     github: "https://github.com/kasi-sj/moviepi",
     icons : [ SiSpringboot , SiNextui , RiNextjsFill , SiMongodb]
-  },
-  {
-    title: "kahoot cli",
-    description:
-      "A kahoot cli is a command line interface to play kahoot quizzes. build using java socket programming.",
-    image: "/kahoot-cli.png",
-    link: "/kahoot-cli.png",
-    github: "https://github.com/kasi-sj/kahoot-cli/",
-    icons : [ FaJava , SiSocketdotio ]
   },
 ];
