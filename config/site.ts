@@ -122,7 +122,7 @@ export const siteConfig = {
     {
       name: "Gmail",
       icon: BiLogoGmail,
-      link: "kasinathansj@gmail.com",
+      link: "mailto:kasinathansj@gmail.com",
     },
   ],
   areaOfIntrest: [
