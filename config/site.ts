@@ -94,7 +94,7 @@ export const siteConfig = {
   links: {
     leetcode: "https://leetcode.com/kasinathansj/",
     linkedin: "http://www.linkedin.com/in/kasinathansj",
-    codechef: "https://www.codechef.com/users/psna_39",
+    codechef: "https://www.codechef.com/users/kasinathansj",
     geeksforgeeks: "https://auth.geeksforgeeks.org/user/kasinathansj",
     github: "https://github.com/kasi-sj",
   },
@@ -107,7 +107,7 @@ export const siteConfig = {
     {
       name: "CodeChef",
       icon: SiCodechef,
-      link: "https://www.codechef.com/users/psna_39",
+      link: "https://www.codechef.com/users/kasinathansj",
     },
     {
       name: "GitHub",
@@ -147,16 +147,16 @@ export const siteConfig = {
       points: [
         "Starters 118 Division 2 Global Rank 14",
         "620+ problems",
-        "4⭐ Max rating 📈 1958",
+        "5⭐ Max rating 📈 2013",
       ],
-      link: "https://www.codechef.com/users/psna_39",
+      link: "https://www.codechef.com/users/kasinathansj",
     },
     {
       image: "/leetcode.png",
       genere: "Competitive Coding",
       points: [
         "Global Rank 62 in Biweekly Contest 124",
-        "1300+ problems",
+        "1400+ problems",
         "Guardian Max rating 📈 2463",
       ],
       link: "https://leetcode.com/kasinathansj/",
@@ -166,8 +166,8 @@ export const siteConfig = {
       genere: "Competitive Coding",
       points: [
         "Rank 3 in GFG-weekly-coding-contest-147",
-        "688+ problems",
-        "5⭐ Max rating 📈 2023",
+        "700+ problems",
+        "5⭐ Max rating 📈 2106",
       ],
       link: "https://auth.geeksforgeeks.org/user/kasinathansj",
     },
@@ -294,6 +294,10 @@ export const skills = [
         name: "C++",
         icon: TbBrandCpp,
       },
+      {
+        name: "JavaScript",
+        icon: IoLogoJavascript,
+      }
     ],
   },
   {
